@@ -112,6 +112,13 @@ $messages['ilo'] = array(
 	'globalusergroups-desc' => 'Palubosan na ti pinag-usar iti naipalawag a dagiti lokal a bunggoy ti agar-aramat a kas dagiti sangalubongan a bunggoy',
 );
 
+/** Italian (Italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'globalusergroups-desc' => "Consente l'uso di gruppi utente definiti localmente come gruppi globali",
+);
+
 /** Japanese (日本語)
  * @author Whym
  */

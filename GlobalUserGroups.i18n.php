@@ -28,7 +28,7 @@ $messages['qqq'] = array(
 	'globalusergroups-desc' => '{{desc}}',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -56,7 +56,7 @@ $messages['dsb'] = array(
 	'globalusergroups-desc' => 'Zmóžnja wužywanje definěrowanych lokalnych wužywarskich kupkow ako globalne kupki',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  */
 $messages['es'] = array(
@@ -70,7 +70,7 @@ $messages['fa'] = array(
 	'globalusergroups-desc' => 'امکان استفاده از گروه‌های کاربری تعریف‌شدهٔ محلی را به عنوان گروه‌های سراسری می‌دهد',
 );
 
-/** French (Français)
+/** French (français)
  * @author Gomoko
  */
 $messages['fr'] = array(
@@ -98,7 +98,7 @@ $messages['hsb'] = array(
 	'globalusergroups-desc' => 'Zmóžnja wužiwanje definowanych lokalnych wužiwarskich skupinow jako globalne skupiny',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -112,7 +112,7 @@ $messages['ilo'] = array(
 	'globalusergroups-desc' => 'Palubosan na ti pinag-usar iti naipalawag a dagiti lokal a bunggoy ti agar-aramat a kas dagiti sangalubongan a bunggoy',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  */
 $messages['it'] = array(
@@ -147,7 +147,7 @@ $messages['lb'] = array(
 	'globalusergroups-desc' => 'Erlaabt et fir definéiert lokal Benotzergruppen als global Gruppen ze benotzen',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -161,7 +161,7 @@ $messages['nl'] = array(
 	'globalusergroups-desc' => 'Maakt het mogelijk lokale groepen als globale groepen te gebruiken',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  */
 $messages['pl'] = array(
@@ -175,21 +175,21 @@ $messages['pms'] = array(
 	'globalusergroups-desc' => "A përmëtt ëd dovré dle partìe d'utent definì locaj com dle partìe globaj",
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Pedroca cerebral
  */
 $messages['pt-br'] = array(
 	'globalusergroups-desc' => 'Permite o uso de grupos de usuários locais definidos como grupos globais',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
 	'globalusergroups-desc' => 'Позволяет использовать определённые локальные группы пользователей как глобальные группы',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Waihorace
  */
 $messages['zh-hant'] = array(

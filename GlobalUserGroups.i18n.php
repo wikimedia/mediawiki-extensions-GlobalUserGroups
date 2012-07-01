@@ -35,7 +35,7 @@ $messages['ast'] = array(
 	'globalusergroups-desc' => "Permite l'usu de grupos d'usuarios llocales definíos como grupos globales",
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
@@ -49,7 +49,7 @@ $messages['de'] = array(
 	'globalusergroups-desc' => 'Ermöglicht das Nutzen definierter lokaler Benutzergruppen als globale Gruppen',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -77,7 +77,7 @@ $messages['fr'] = array(
 	'globalusergroups-desc' => "Permet l'utilisation de groupes d'utilisateurs locaux définis comme des groupes globaux",
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -91,7 +91,7 @@ $messages['he'] = array(
 	'globalusergroups-desc' => 'מאפשרת שימוש בקבוצות מקומיות מוגדרות כמו בקבוצות גלובליות',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(

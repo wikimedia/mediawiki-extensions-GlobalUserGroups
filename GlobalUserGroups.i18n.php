@@ -189,6 +189,13 @@ $messages['ru'] = array(
 	'globalusergroups-desc' => 'Позволяет использовать определённые локальные группы пользователей как глобальные группы',
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'globalusergroups-desc' => 'Nagpapahintulot ng pagagamit ng itinuring na mga pangkat ng katutubong tagagamit bilang mga pangkat na pangglobo',
+);
+
 /** Traditional Chinese (‪中文（繁體）‬)
  * @author Waihorace
  */

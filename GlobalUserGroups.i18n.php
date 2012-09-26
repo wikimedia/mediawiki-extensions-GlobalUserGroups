@@ -196,6 +196,11 @@ $messages['tl'] = array(
 	'globalusergroups-desc' => 'Nagpapahintulot ng pagagamit ng itinuring na mga pangkat ng katutubong tagagamit bilang mga pangkat na pangglobo',
 );
 
+/** Simplified Chinese (中文（简体）‎) */
+$messages['zh-hans'] = array(
+	'globalusergroups-desc' => '允许使用已经定义的本地用户组作为全域用户组',
+);
+
 /** Traditional Chinese (‪中文（繁體）‬)
  * @author Waihorace
  */

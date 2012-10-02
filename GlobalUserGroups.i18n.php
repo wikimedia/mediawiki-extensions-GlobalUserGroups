@@ -35,7 +35,7 @@ $messages['ast'] = array(
 	'globalusergroups-desc' => "Permite l'usu de grupos d'usuarios llocales definíos como grupos globales",
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
@@ -201,7 +201,7 @@ $messages['zh-hans'] = array(
 	'globalusergroups-desc' => '允许使用已经定义的本地用户组作为全域用户组',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Waihorace
  */
 $messages['zh-hant'] = array(

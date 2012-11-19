@@ -154,6 +154,12 @@ $messages['mk'] = array(
 	'globalusergroups-desc' => 'Овозможува употреба на дадени локални кориснички групи како глобални групи',
 );
 
+/** Norwegian Bokmål (norsk (bokmål)‎)
+ */
+$messages['nb'] = array(
+	'globalusergroups-desc' => 'Muliggjør bruken av definerte lokale brukergrupper som globale grupper',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */

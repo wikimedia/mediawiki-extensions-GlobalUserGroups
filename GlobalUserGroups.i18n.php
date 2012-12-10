@@ -202,6 +202,13 @@ $messages['tl'] = array(
 	'globalusergroups-desc' => 'Nagpapahintulot ng pagagamit ng itinuring na mga pangkat ng katutubong tagagamit bilang mga pangkat na pangglobo',
 );
 
+/** Ukrainian (українська)
+ * @author Ата
+ */
+$messages['uk'] = array(
+	'globalusergroups-desc' => 'Дозволяє використовувати певні локальні групи користувачів як глобальні групи',
+);
+
 /** Simplified Chinese (中文（简体）‎)
  */
 $messages['zh-hans'] = array(

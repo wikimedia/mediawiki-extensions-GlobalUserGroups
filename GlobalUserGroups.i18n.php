@@ -105,6 +105,13 @@ $messages['ia'] = array(
 	'globalusergroups-desc' => 'Permitte le uso de gruppos definite de usatores local como gruppos global',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Farras
+ */
+$messages['id'] = array(
+	'globalusergroups-desc' => 'Memungkinkan penggunaan grup pengguna lokal sebagai grup global',
+);
+
 /** Iloko (Ilokano)
  * @author Lam-ang
  */

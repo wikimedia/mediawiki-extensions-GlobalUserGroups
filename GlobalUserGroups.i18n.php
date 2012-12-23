@@ -161,6 +161,13 @@ $messages['mk'] = array(
 	'globalusergroups-desc' => 'Овозможува употреба на дадени локални кориснички групи како глобални групи',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'globalusergroups-desc' => "Tippermetti l-użu ta' gruppi tal-utenti definiti lokalment bħala gruppi globali",
+);
+
 /** Norwegian Bokmål (norsk (bokmål)‎)
  */
 $messages['nb'] = array(

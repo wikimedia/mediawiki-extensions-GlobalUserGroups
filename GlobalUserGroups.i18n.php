@@ -202,6 +202,13 @@ $messages['pt-br'] = array(
 	'globalusergroups-desc' => 'Permite o uso de grupos de usuários locais definidos como grupos globais',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'globalusergroups-desc' => "Permette l'ause de le gruppe de utinde locale definite cumme gruppe globbale",
+);
+
 /** Russian (русский)
  * @author Александр Сигачёв
  */

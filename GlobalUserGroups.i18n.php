@@ -216,6 +216,13 @@ $messages['ru'] = array(
 	'globalusergroups-desc' => 'Позволяет использовать определённые локальные группы пользователей как глобальные группы',
 );
 
+/** Swedish (svenska)
+ * @author Ainali
+ */
+$messages['sv'] = array(
+	'globalusergroups-desc' => 'Tillåter användning av definierade lokala användargrupper som globala grupper',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */

@@ -23,9 +23,10 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author Nike
  * @author SVG
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'globalusergroups-desc' => '{{desc}}',
+	'globalusergroups-desc' => '{{desc|name=Global User Groups|url=http://www.mediawiki.org/wiki/Extension:GlobalUserGroups}}',
 );
 
 /** Asturian (asturianu)

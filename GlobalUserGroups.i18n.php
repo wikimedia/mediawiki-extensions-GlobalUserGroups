@@ -162,6 +162,13 @@ $messages['mk'] = array(
 	'globalusergroups-desc' => 'Овозможува употреба на дадени локални кориснички групи како глобални групи',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Aurora
+ */
+$messages['ms'] = array(
+	'globalusergroups-desc' => 'Benarkan penggunaan kumpulan pengguna tempatan yang ditakrifkan sebagai kumpulan sejagat',
+);
+
 /** Maltese (Malti)
  * @author Chrisportelli
  */

@@ -176,7 +176,7 @@ $messages['mt'] = array(
 	'globalusergroups-desc' => "Tippermetti l-użu ta' gruppi tal-utenti definiti lokalment bħala gruppi globali",
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  */
 $messages['nb'] = array(
 	'globalusergroups-desc' => 'Muliggjør bruken av definerte lokale brukergrupper som globale grupper',

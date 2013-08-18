@@ -136,9 +136,10 @@ $messages['ja'] = array(
 
 /** Korean (한국어)
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
-	'globalusergroups-desc' => '로컬 그룹으로 정의된 권한을 글로벌 권한 그룹처럼 사용할 수 있도록 함',
+	'globalusergroups-desc' => '로컬 그룹으로 정의된 권한을 전역 권한 그룹처럼 사용할 수 있습니다',
 );
 
 /** Colognian (Ripoarisch)

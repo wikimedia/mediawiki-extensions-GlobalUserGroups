@@ -43,6 +43,13 @@ $messages['be-tarask'] = array(
 	'globalusergroups-desc' => 'Дазваляе выкарыстоўваць лякальныя групы ўдзельнікаў у якасьці глябальных груп',
 );
 
+/** Danish (dansk)
+ * @author Christian List
+ */
+$messages['da'] = array(
+	'globalusergroups-desc' => 'Tillader brug af definerede lokale brugergrupper som globale grupper',
+);
+
 /** German (Deutsch)
  * @author SVG
  */

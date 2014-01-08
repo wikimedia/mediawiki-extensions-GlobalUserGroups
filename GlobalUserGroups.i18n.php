@@ -17,7 +17,7 @@ $messages = array();
  * @author SVG
  */
 $messages['en'] = array(
-	'globalusergroups-desc' => 'Allows the use of defined local user groups as global groups',
+	'globalusergroups-desc' => 'Allows using defined local user groups as global groups',
 );
 
 /** Message documentation (Message documentation)

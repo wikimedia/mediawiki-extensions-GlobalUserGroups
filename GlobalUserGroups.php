@@ -23,7 +23,7 @@ $wgExtensionCredits['other'][] = array(
 	'url' => 'https://www.mediawiki.org/wiki/Extension:GlobalUserGroups',
 	'author' => 'Tim Weyer',
 	'descriptionmsg' => 'globalusergroups-desc',
-	'version' => '1.0.1',
+	'version' => '1.1.0',
 );
 
 // Use extra translations for various user group names
@@ -31,6 +31,7 @@ $wgGlobalUserGroupsUseEMWT = true;
 
 // Translations
 $dir = dirname( __FILE__ ) . '/';
+$wgMessagesDirs['GlobalUserGroups'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['GlobalUserGroups'] = $dir . 'GlobalUserGroups.i18n.php';
 
 // Hooks

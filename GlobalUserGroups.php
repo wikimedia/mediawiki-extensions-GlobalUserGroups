@@ -23,16 +23,15 @@ $wgExtensionCredits['other'][] = array(
 	'url' => 'https://www.mediawiki.org/wiki/Extension:GlobalUserGroups',
 	'author' => 'Tim Weyer',
 	'descriptionmsg' => 'globalusergroups-desc',
-	'version' => '1.1.0',
+	'version' => '1.1.1',
 );
 
 // Use extra translations for various user group names
 $wgGlobalUserGroupsUseEMWT = true;
 
 // Translations
-$dir = dirname( __FILE__ ) . '/';
-$wgMessagesDirs['GlobalUserGroups'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['GlobalUserGroups'] = $dir . 'GlobalUserGroups.i18n.php';
+$wgMessagesDirs['GlobalUserGroups'] = __DIR__ . '/i18n/core';
+$wgExtensionMessagesFiles['GlobalUserGroups'] = __DIR__ . '/GlobalUserGroups.i18n.php';
 
 // Hooks
 $wgHooks['UserRights'][] = 'efManageGlobalUserGroups';
@@ -89,11 +88,10 @@ function efManageGlobalUserGroups($user, $addgroup, $removegroup) {
 }
 
 function efGlobalUserGroupsEMWT() {
-	global $wgGlobalUserGroupsUseEMWT, $wgExtensionMessagesFiles;
-
-	$dir = dirname( __FILE__ ) . '/';
+	global $wgGlobalUserGroupsUseEMWT, $wgExtensionMessagesFiles, $wgMessagesDirs;
 
 	if ( $wgGlobalUserGroupsUseEMWT ) {
-		$wgExtensionMessagesFiles['GlobalUserGroupsExtras'] = $dir . 'GlobalUserGroups.i18n.groups.php';
+		$wgMessagesDirs['GlobalUserGroupsExtras'] = __DIR__ . '/i18n/groups';
+		$wgExtensionMessagesFiles['GlobalUserGroupsExtras'] = __DIR__ . '/GlobalUserGroups.i18n.groups.php';
 	}
 }

@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Robby"
-        ]
-    },
-    "globalusergroups-desc": "Erlaabt et fir definéiert lokal Benotzergruppen als global Gruppen ze benotzen"
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"globalusergroups-desc": "Erlaabt et fir definéiert lokal Benotzergruppen als global Gruppen ze benotzen"
 }

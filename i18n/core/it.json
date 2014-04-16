@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Beta16"
-        ]
-    },
-    "globalusergroups-desc": "Consente l'uso di gruppi utente definiti localmente come gruppi globali"
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"globalusergroups-desc": "Consente l'uso di gruppi utente definiti localmente come gruppi globali"
 }

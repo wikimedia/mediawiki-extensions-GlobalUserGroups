@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Ainali"
-        ]
-    },
-    "globalusergroups-desc": "Tillåter användning av definierade lokala användargrupper som globala grupper"
+	"@metadata": {
+		"authors": [
+			"Ainali"
+		]
+	},
+	"globalusergroups-desc": "Tillåter användning av definierade lokala användargrupper som globala grupper"
 }

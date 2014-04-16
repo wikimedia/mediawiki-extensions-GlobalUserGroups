@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Waihorace"
-        ]
-    },
-    "globalusergroups-desc": "允許使用已經定義的本地用戶組作為全域用戶組"
+	"@metadata": {
+		"authors": [
+			"Waihorace"
+		]
+	},
+	"globalusergroups-desc": "允許使用已經定義的本地用戶組作為全域用戶組"
 }

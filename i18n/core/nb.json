@@ -1,6 +1,4 @@
 {
-    "@metadata": {
-        "authors": []
-    },
-    "globalusergroups-desc": "Muliggjør bruken av definerte lokale brukergrupper som globale grupper"
+	"@metadata": [],
+	"globalusergroups-desc": "Muliggjør bruken av definerte lokale brukergrupper som globale grupper"
 }

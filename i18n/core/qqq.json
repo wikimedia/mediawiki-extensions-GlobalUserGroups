@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Nike",
-            "SVG",
-            "Shirayuki"
-        ]
-    },
-    "globalusergroups-desc": "{{desc|name=Global User Groups|url=http://www.mediawiki.org/wiki/Extension:GlobalUserGroups}}"
+	"@metadata": {
+		"authors": [
+			"Nike",
+			"SVG",
+			"Shirayuki"
+		]
+	},
+	"globalusergroups-desc": "{{desc|name=Global User Groups|url=http://www.mediawiki.org/wiki/Extension:GlobalUserGroups}}"
 }

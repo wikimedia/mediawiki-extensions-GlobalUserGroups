@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Michawiki"
-        ]
-    },
-    "globalusergroups-desc": "Zmóžnja wužiwanje definowanych lokalnych wužiwarskich skupinow jako globalne skupiny"
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"globalusergroups-desc": "Zmóžnja wužiwanje definowanych lokalnych wužiwarskich skupinow jako globalne skupiny"
 }

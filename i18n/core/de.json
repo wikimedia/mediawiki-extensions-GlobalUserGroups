@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "SVG"
-        ]
-    },
-    "globalusergroups-desc": "Ermöglicht das Nutzen definierter lokaler Benutzergruppen als globale Gruppen"
+	"@metadata": {
+		"authors": [
+			"SVG"
+		]
+	},
+	"globalusergroups-desc": "Ermöglicht das Nutzen definierter lokaler Benutzergruppen als globale Gruppen"
 }

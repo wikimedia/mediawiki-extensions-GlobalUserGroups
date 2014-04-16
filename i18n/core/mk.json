@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Bjankuloski06"
-        ]
-    },
-    "globalusergroups-desc": "Овозможува употреба на дадени локални кориснички групи како глобални групи"
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"globalusergroups-desc": "Овозможува употреба на дадени локални кориснички групи како глобални групи"
 }

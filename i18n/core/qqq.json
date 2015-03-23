@@ -3,8 +3,9 @@
 		"authors": [
 			"Nike",
 			"SVG",
-			"Shirayuki"
+			"Shirayuki",
+			"Umherirrender"
 		]
 	},
-	"globalusergroups-desc": "{{desc|name=Global User Groups|url=http://www.mediawiki.org/wiki/Extension:GlobalUserGroups}}"
+	"globalusergroups-desc": "{{desc|name=Global User Groups|url=https://www.mediawiki.org/wiki/Extension:GlobalUserGroups}}"
 }

@@ -32,7 +32,9 @@ $wgGlobalUserGroupsUseEMWT = true;
 
 // Translations
 $wgMessagesDirs['GlobalUserGroups'] = __DIR__ . '/i18n/core';
+$wgMessagesDirs['GlobalUserGroups.groups'] = __DIR__ . '/i18n/groups';
 $wgExtensionMessagesFiles['GlobalUserGroups'] = __DIR__ . '/GlobalUserGroups.i18n.php';
+$wgExtensionMessagesFiles['GlobalUserGroups.groups'] = __DIR__ . '/GlobalUserGroups.i18n.groups.php';
 
 // Hooks
 $wgHooks['UserRights'][] = 'efManageGlobalUserGroups';

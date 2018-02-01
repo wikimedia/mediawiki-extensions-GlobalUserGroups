@@ -24,7 +24,7 @@ $wgExtensionCredits['other'][] = array(
 	'author' => 'Tim Weyer',
 	'descriptionmsg' => 'globalusergroups-desc',
 	'version' => '1.1.1',
-	'license-name' => 'GPL-2.0+',
+	'license-name' => 'GPL-2.0-or-later',
 );
 
 // Use extra translations for various user group names

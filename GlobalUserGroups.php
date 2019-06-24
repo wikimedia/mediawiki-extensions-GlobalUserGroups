@@ -35,7 +35,7 @@ $wgMessagesDirs['GlobalUserGroups'] = __DIR__ . '/i18n/core';
 $wgMessagesDirs['GlobalUserGroups.groups'] = __DIR__ . '/i18n/groups';
 
 // Hooks
-$wgHooks['UserRights'][] = 'efManageGlobalUserGroups';
+$wgHooks['UserGroupsChanged'][] = 'efManageGlobalUserGroups';
 
 /**
  * @param $user User

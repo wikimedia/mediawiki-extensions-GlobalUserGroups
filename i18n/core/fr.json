@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Verdy p"
 		]
 	},
-	"globalusergroups-desc": "Permet l'utilisation de groupes d'utilisateurs locaux définis comme des groupes globaux"
+	"globalusergroups-desc": "Permet l’utilisation en tant que groupes globaux de groupes d’utilisateurs définis localement"
 }

@@ -52,7 +52,7 @@ function efManageGlobalUserGroups($user, $addgroup, $removegroup) {
 
 		if (!empty($global_removeable)) {
 			foreach ( $wgLocalDatabases as $wikiID ) {
-				$db = wfGetDB( DB_MASTER, array(), $wikiID );
+				$db = wfGetDB( DB_PRIMARY, array(), $wikiID );
 				foreach ( $global_removeable as $group ) {
 					# delete from all local databases
 					$db->delete('user_groups', array(
@@ -71,7 +71,7 @@ function efManageGlobalUserGroups($user, $addgroup, $removegroup) {
 
 		if (!empty($global_addable)) {
 			foreach ( $wgLocalDatabases as $wikiID ) {
-				$db = wfGetDB( DB_MASTER, array(), $wikiID );
+				$db = wfGetDB( DB_PRIMARY, array(), $wikiID );
 				foreach ( $global_addable as $group ) {
 					# insert into all local databases
 					$db->insert('user_groups', array(

@@ -15,6 +15,8 @@ if (!defined('MEDIAWIKI')){
 	echo ('THIS IS NOT VALID ENTRY POINT.'); exit (1);
 }
 
+use MediaWiki\MediaWikiServices;
+
 $wgExtensionFunctions[] = 'efGlobalUserGroupsEMWT';
 
 $wgExtensionCredits['other'][] = array(
@@ -46,13 +48,14 @@ $wgHooks['UserGroupsChanged'][] = 'efManageGlobalUserGroups';
 function efManageGlobalUserGroups($user, $addgroup, $removegroup) {
 	global $wgGlobalUserGroups, $wgLocalDatabases;
 
+	$lb = MediaWikiServices::getInstance()->getDBLoadBalancer();
 	# Remove groups in all local databases if there is anything to remove
 	if (!empty($removegroup)) {
 		$global_removeable = array_intersect($removegroup, $wgGlobalUserGroups);
 
 		if (!empty($global_removeable)) {
 			foreach ( $wgLocalDatabases as $wikiID ) {
-				$db = wfGetDB( DB_PRIMARY, array(), $wikiID );
+				$db = $lb->getConnection( DB_PRIMARY, array(), $wikiID );
 				foreach ( $global_removeable as $group ) {
 					# delete from all local databases
 					$db->delete('user_groups', array(
@@ -71,7 +74,7 @@ function efManageGlobalUserGroups($user, $addgroup, $removegroup) {
 
 		if (!empty($global_addable)) {
 			foreach ( $wgLocalDatabases as $wikiID ) {
-				$db = wfGetDB( DB_PRIMARY, array(), $wikiID );
+				$db = $lb->getConnection( DB_PRIMARY, array(), $wikiID );
 				foreach ( $global_addable as $group ) {
 					# insert into all local databases
 					$db->insert('user_groups', array(

@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"SVG"
+			"SVG",
+			"Justman10000"
 		]
 	},
-	"globalusergroups-desc": "Ermöglicht das Nutzen definierter lokaler Benutzergruppen als globale Gruppen"
+	"globalusergroups-desc": "Ermöglicht die Verwendung definierter lokaler Benutzergruppen als globale Gruppen"
 }

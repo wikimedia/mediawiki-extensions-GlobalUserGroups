@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Farras"
+			"Farras",
+			"Penyuwangi"
 		]
 	},
-	"globalusergroups-desc": "Memungkinkan penggunaan grup pengguna lokal sebagai grup global"
+	"globalusergroups-desc": "Memungkinkan penggunaan kelompok pengguna lokal yang ditentukan sebagai kelompok global"
 }
